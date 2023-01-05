@@ -14,7 +14,7 @@
 nav{
     display: flex;
     justify-content:space-between;
-    margin: 51px 200px;
+    padding: 50px 200px;
 }
 nav li{
     list-style: none;
@@ -89,4 +89,83 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+.whatIdo{
+    margin-top: 130px;
+}
+.do-align{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+.skill-title{
+    font-size: 20px ;
+    font-weight:700;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+.skill-des{
+    color: #757575;
+}
+.skill{
+    box-shadow:0px 6px 15px rgb(57, 27, 27);
+    padding: 30px;
+}
+.resume{
+    margin-top: 130px;
+}
+.section-title{
+    text-align: center;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    color: #121111;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+color: #757575;
+font-weight: 600;
+font-size: 25px;
+margin-bottom: 20px;
+}
+.resume .description{
+color: #757575;
+}
+.resume-item{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+    
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+}
+input{
+    width: 84%;
+}
+.contact a{
+    text-decoration: none;
 }
