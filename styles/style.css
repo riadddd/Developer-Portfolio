@@ -36,6 +36,7 @@ nav ul{
     font-size:20px;
     color: #FFFFFF;
     padding: 18px 35px;
+    border: none;
 }
 .banner{
     margin: 0 200px;
@@ -90,6 +91,9 @@ main{
     font-weight: 700;
     color: #474747;
 }
+
+/* what i do  */
+
 .whatIdo{
     margin-top: 130px;
 }
@@ -114,6 +118,9 @@ main{
     box-shadow:0px 6px 15px rgb(57, 27, 27);
     padding: 30px;
 }
+
+/* resume part  */
+
 .resume{
     margin-top: 130px;
 }
@@ -168,4 +175,28 @@ input{
 }
 .contact a{
     text-decoration: none;
+}
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav, .skills-container, .resume-content, .about-info-container, .contact, .banner{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner img{
+        width: 300px;
+        margin-right: 50px;
+    }
+    .about, .contact{
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+      
 }
